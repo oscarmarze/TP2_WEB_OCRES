@@ -10,6 +10,7 @@
 
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 	</head>
 	<body>
 		<div class="container">
@@ -23,14 +24,23 @@
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
+				<div class="dropright">
+					<div class="user">
+						<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Luke Chesser</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Edit my profile</a>
+							<a class="dropdown-item" href="#">Logout</a>
+							
+						  </div>
+					</div>
+					
+					
 				</div>
 			</div>
 		</header>
 		<div class="container">
 		
-			<div class="col-sm-2" style="background-color: blue;">
+			<div class="col-sm-2 d-none d-lg-block" style="background-color: blue;">
 		<aside >
 			<h3>Browse</h3>
 			<nav class="browse">
@@ -80,7 +90,7 @@
 					</div>
 				</div>
 			</header>
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
 					<h2>Top Album</h2>
 					<div class="col-sm" id="test" style="background-color: cyan;">
@@ -90,7 +100,7 @@
 				
 				<section id="albums">
 					<div class="row" style="background-color: green;">
-					<div class="col-xs-6 col-sm-3 col-lg-2 " style="background-color: orange;">
+					<div class=" col-6 col-sm-4 col-md-3 col-lg-2 " style="background-color: orange;">
 						<article>
 							<figure>
 								<img src="img/album/album_01.png" />
@@ -100,7 +110,7 @@
 							<div class="count">17 songs</div>
 						</article>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2"  style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2"  style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_02.png" />
@@ -110,7 +120,7 @@
 						<div class="count">11 songs</div>
 					</article>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;" >
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;" >
 					<article>
 						<figure>
 							<img src="img/album/album_03.png" />
@@ -120,7 +130,7 @@
 						<div class="count">12 songs</div>
 					</article>
 					</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_04.png" />
@@ -130,7 +140,7 @@
 						<div class="count">11 songs</div>
 					</article>
 				</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_05.png" />
@@ -140,7 +150,7 @@
 						<div class="count">13 songs <span class="explicit">EXPLICIT</span></div>
 					</article>
 				</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_06.png" />
@@ -150,7 +160,7 @@
 						<div class="count">17 songs</div>
 					</article>
 				</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_07.png" />
@@ -160,7 +170,7 @@
 						<div class="count">11 songs</div>
 					</article>
 				</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_08.png" />
@@ -170,7 +180,7 @@
 						<div class="count">12 songs</div>
 					</article>
 				</div>
-					<div class=" col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_09.png" />
@@ -180,7 +190,7 @@
 						<div class="count">11 songs <span class="explicit">EXPLICIT</span></div>
 					</article>
 				</div>
-					<div class="col-xs-6 col-sm-3 col-lg-2" style="background-color: blueviolet;">
+					<div class="col-6 col-sm-4 col-md-3 col-lg-2" style="background-color: blueviolet;">
 					<article>
 						<figure>
 							<img src="img/album/album_10.png" />
