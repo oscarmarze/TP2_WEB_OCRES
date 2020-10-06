@@ -17,6 +17,7 @@
     form{
         visibility: hidden;
     }
+    
 }
 #test{
    
@@ -123,6 +124,11 @@ h1 {
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+    
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .stats-links span, .stats-links a {
